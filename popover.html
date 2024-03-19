@@ -1,0 +1,307 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .custom-popover {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .popover-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            border-radius: 5px;
+            z-index: 1;
+        }
+
+        .custom-popover:hover .popover-content {
+            display: block;
+        }
+    </style>
+    <title>Custom Popover Example</title>
+</head>
+<body>
+
+    <div class="custom-popover">
+        Hover over me
+        <div class="popover-content">
+            This is custom popover content.
+        </div>
+    </div>
+
+</body>
+</html> -->
+
+
+<!-- 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .popover-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .popover-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            border-radius: 5px;
+            z-index: 1;
+        }
+
+        .popover-container:hover .popover-content {
+            display: block;
+        }
+    </style>
+    <title>Custom Popover Example</title>
+</head>
+<body>
+
+    <div class="popover-container">
+        Hover over me
+        <div class="popover-content">
+            This is the popover content.
+        </div>
+    </div>
+
+</body>
+</html> -->
+
+<!-- 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .popover-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .popover-content {
+            display: none;
+            position: absolute;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            padding: 15px;
+            border-radius: 5px;
+            z-index: 1;
+            max-width: 250px; /* Set a maximum width for better readability */
+        }
+
+        .popover-container:hover .popover-content {
+            display: block;
+        }
+
+        /* Arrow for the popover */
+        .popover-content::before {
+            content: '';
+            position: absolute;
+            border-style: solid;
+            border-width: 0 10px 10px 10px;
+            border-color: transparent transparent #fff transparent;
+            top: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
+    <title>Custom Popover Example</title>
+</head>
+<body>
+
+    <div class="popover-container">
+        Hover over me
+        <div class="popover-content">
+            This is the popover content.
+        </div>
+    </div>
+
+</body>
+</html> -->
+
+
+<!-- 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .popover-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .popover-content {
+            display: none;
+            position: absolute;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            padding: 15px;
+            border-radius: 5px;
+            z-index: 1;
+            max-width: 250px; /* Set a maximum width for better readability */
+        }
+
+        .popover-container:hover .popover-content {
+            display: block;
+        }
+
+        /* Arrow for the popover */
+        .popover-content::before {
+            content: '';
+            position: absolute;
+            border-style: solid;
+            border-width: 1px 10px 11px 10px; /* Adjusted to include the border */
+            border-color: #ccc transparent #fff transparent; /* Added border color */
+            top: -11px; /* Adjusted for the border */
+            left: 50%;
+            transform: translateX(-50%);
+            /* clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 70% 75%, 56% 100%, 44% 75%, 0% 75%); */
+        }
+    </style>
+    <title>Custom Popover Example</title>
+</head>
+<body>
+
+    <div class="popover-container">
+        Hover over me
+        <div class="popover-content">
+            This is the popover content.
+        </div>
+    </div>
+
+</body>
+</html> -->
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .popover-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .popover-content {
+            display: none;
+            position: absolute;
+            background-color: #f8d7da; /* Custom background color similar to Bootstrap */
+            border: 1px solid #f5c6cb; /* Custom border color similar to Bootstrap */
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            padding: 15px;
+            border-radius: 0.25rem; /* Custom border-radius similar to Bootstrap */
+            z-index: 1;
+            max-width: 250px; /* Set a maximum width for better readability */
+        }
+
+        .popover-container:hover .popover-content {
+            display: block;
+        }
+
+        /* Arrow for the popover */
+        .popover-content::before {
+            content: '';
+            position: absolute;
+            border-style: solid;
+            border-width: 0 10px 10px 10px;
+            /* border-color: #361316 transparent #1c259c transparent; Custom border color similar to Bootstrap */
+            top: -10px;
+            border: 1px solid green;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
+    <title>Custom Popover Example</title>
+</head>
+<body> -->
+
+    <!-- <div class="popover-container">
+        Hover over me
+        <div class="popover-content">
+            This is the custom popover content.
+        </div>
+    </div>
+
+</body>
+</html> -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .popover-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .popover-content {
+            display: none;
+            position: absolute;
+            background-color: #f8d7da; /* Custom background color similar to Bootstrap */
+            border: 1px solid #f5c6cb; /* Custom border color similar to Bootstrap */
+            border-top: 4px solid black; /* Added black border to the top of the popover */
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            padding: 15px;
+            border-radius: 0.25rem; /* Custom border-radius similar to Bootstrap */
+            z-index: 1;
+            max-width: 250px; /* Set a maximum width for better readability */
+        }
+
+        .popover-container:hover .popover-content {
+            display: block;
+        }
+
+        /* Arrow for the popover */
+        .popover-content::before {
+            content: '';
+            position: absolute;
+            border-style: solid;
+            border-width: 0 10px 10px 10px;
+            border-color: black transparent #f8d7da transparent; /* Custom border color similar to Bootstrap */
+            top: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
+    <title>Custom Popover Example</title>
+</head>
+<body>
+
+    <div class="popover-container">
+        Hover over me
+        <div class="popover-content">
+            This is the custom popover content.
+        </div>
+    </div>
+
+</body>
+</html>
